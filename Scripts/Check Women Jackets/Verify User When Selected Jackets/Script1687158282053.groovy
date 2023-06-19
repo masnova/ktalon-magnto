@@ -17,5 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login/Login - Function'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('Selected Jackets/Women/dropdown_Women'))
+
+WebUI.mouseOver(findTestObject('Selected Jackets/Women/dropdown_Tops'))
+
+WebUI.mouseOver(findTestObject('Selected Jackets/Women/selected_Jackets'))
+
+WebUI.click(findTestObject('Selected Jackets/Women/selected_Jackets'))
+
+WebUI.verifyElementVisible(findTestObject('Selected Jackets/Women/text_Jackets'))
+
+WebUI.scrollToElement(findTestObject('Selected Jackets/Women/scroll_Element'), 0)
 
