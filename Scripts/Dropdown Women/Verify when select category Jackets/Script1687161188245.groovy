@@ -19,15 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Login - Function'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Selected Jackets/Men/dropdown_Men'))
+WebUI.mouseOver(findTestObject('Dropdown_Menu/Women/Select Jackets/dropdown_Women'))
 
-WebUI.mouseOver(findTestObject('Selected Jackets/Men/dropdown_Tops'))
+WebUI.mouseOver(findTestObject('Dropdown_Menu/Women/Select Jackets/dropdown_Tops'))
 
-WebUI.mouseOver(findTestObject('Selected Jackets/Men/selected_Jackets'))
+WebUI.mouseOver(findTestObject('Dropdown_Menu/Women/Select Jackets/selected_Jackets'))
 
-WebUI.click(findTestObject('Selected Jackets/Men/selected_Jackets'))
+WebUI.click(findTestObject('Dropdown_Menu/Women/Select Jackets/selected_Jackets'))
 
-WebUI.verifyElementVisible(findTestObject('Selected Jackets/Men/text_Jackets'))
+WebUI.verifyElementText(findTestObject('Dropdown_Menu/Women/Select Jackets/text_Jackets'), 'Jackets')
 
-WebUI.scrollToElement(findTestObject('Selected Jackets/Women/scroll_Element'), 0)
+WebUI.scrollToElement(findTestObject('Dropdown_Menu/Women/Select Jackets/scroll_Element'), 0)
+
+WebUI.closeBrowser()
 

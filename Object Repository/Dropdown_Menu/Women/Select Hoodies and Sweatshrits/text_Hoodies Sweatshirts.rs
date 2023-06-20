@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_Hoodies Sweatshirts</name>
+   <tag></tag>
+   <elementGuidId>7ba64417-30f2-415f-8a2e-6651a2046ccb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.base</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h1[@id='page-title-heading']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8c92653d-bdf7-4a22-8931-b614cb868c38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base</value>
+      <webElementGuid>6e30fc76-d1ef-492c-9d19-4aa4c874f098</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ui-id</name>
+      <type>Main</type>
+      <value>page-title-wrapper</value>
+      <webElementGuid>75e0de42-3bbb-49d6-a59e-564b71347134</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hoodies &amp; Sweatshirts</value>
+      <webElementGuid>1b900d85-f987-4f9d-86db-3f346701798d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-title-heading&quot;)/span[@class=&quot;base&quot;]</value>
+      <webElementGuid>87ff9044-bf72-44c4-9754-fc262812c1d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h1[@id='page-title-heading']/span</value>
+      <webElementGuid>f9483593-e5ac-47e9-972b-84829da851d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hoodies &amp; Sweatshirts'])[3]/following::span[1]</value>
+      <webElementGuid>21cd44ac-81f5-47a4-92ff-3535dec3fdb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tops'])[3]/following::span[1]</value>
+      <webElementGuid>d691390e-15d4-4508-b448-da23ecc60acf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View as'])[1]/preceding::span[1]</value>
+      <webElementGuid>a86fa47d-f1a9-4833-b318-9ee58be15342</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grid'])[1]/preceding::span[1]</value>
+      <webElementGuid>11979dcd-6ec4-4773-8049-447501532682</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1/span</value>
+      <webElementGuid>9725796b-0e33-4b1b-bba4-83701066d97b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Hoodies &amp; Sweatshirts' or . = 'Hoodies &amp; Sweatshirts')]</value>
+      <webElementGuid>a3c22153-31a7-434b-9007-8259235f12ef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

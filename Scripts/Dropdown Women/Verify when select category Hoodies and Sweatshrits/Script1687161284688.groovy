@@ -19,15 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Login - Function'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Selected Jackets/Women/dropdown_Women'))
+WebUI.mouseOver(findTestObject('Dropdown_Menu/Women/Select Hoodies and Sweatshrits/dropdown_Women'))
 
-WebUI.mouseOver(findTestObject('Selected Jackets/Women/dropdown_Tops'))
+WebUI.mouseOver(findTestObject('Dropdown_Menu/Women/Select Hoodies and Sweatshrits/dropdown_Tops'))
 
-WebUI.mouseOver(findTestObject('Selected Jackets/Women/selected_Jackets'))
+WebUI.mouseOver(findTestObject('Dropdown_Menu/Women/Select Hoodies and Sweatshrits/selected_Hoodies Sweatshirts'))
 
-WebUI.click(findTestObject('Selected Jackets/Women/selected_Jackets'))
+WebUI.click(findTestObject('Dropdown_Menu/Women/Select Hoodies and Sweatshrits/selected_Hoodies Sweatshirts'))
 
-WebUI.verifyElementVisible(findTestObject('Selected Jackets/Women/text_Jackets'))
+WebUI.verifyElementText(findTestObject('Dropdown_Menu/Women/Select Hoodies and Sweatshrits/text_Hoodies Sweatshirts'), 'Hoodies & Sweatshirts')
 
-WebUI.scrollToElement(findTestObject('Selected Jackets/Women/scroll_Element'), 0)
+WebUI.scrollToElement(findTestObject('Dropdown_Menu/Women/Select Hoodies and Sweatshrits/scroll_Element'), 0)
+
+WebUI.closeBrowser()
 

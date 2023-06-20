@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify User When Selected Jackets</name>
+   <name>Verify when select category Jackets</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8ecf1ea3-94f2-49ec-9b95-85e3e8953de4</testCaseGuid>
